@@ -57,7 +57,7 @@ CREATE TABLE analytics (
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
-/*
+
 -- Insert sample quizzes
 INSERT INTO quizzes (title, description, time_limit) VALUES 
 ('COMP3421 Basic Quiz', 'Test your knowledge of web development basics', 300),
@@ -99,4 +99,3 @@ UPDATE questions SET
     option_c = '&lt;h1&gt;',
     option_d = '&lt;head&gt;'
 WHERE id = 4;
-*/
