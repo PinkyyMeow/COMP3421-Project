@@ -1,0 +1,11 @@
+{
+  "name": "php-app-placeholder",
+  "version": "1.0.0",
+  "description": "Placeholder for PHP projects on Render",
+  "scripts": {
+    "start": "echo 'PHP server should be running separately' && exit 0"
+  },
+  "engines": {
+    "node": "18"
+  }
+}
